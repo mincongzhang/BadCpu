@@ -1,3 +1,4 @@
+/*
 #include <Windows.h>  
 #include<stdlib.h>  
 #include<math.h>  
@@ -28,9 +29,10 @@ int _tmain(int argc, _TCHAR* argv[] )
     {  
         j = j % COUNT;  
         startTime = GetTickCount();  
-        while((GetTickCount() - startTime) <= busySpan[j]);  
+       while((GetTickCount() - startTime) <= busySpan[j]);  
             Sleep(idleSpan[j]);  
         j++;  
     }  
     return 0;  
 }
+*/
