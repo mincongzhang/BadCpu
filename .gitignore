@@ -1,0 +1,17 @@
+playWithTaskManager/Debug
+
+*.suo
+
+*.sln
+
+*.exe
+
+*log
+
+*.obj
+
+*.idb
+
+*.pdb
+
+*.sdf
