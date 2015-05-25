@@ -63,6 +63,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpu_line.cpp" />
+    <ClCompile Include="cpu_play.cpp" />
     <ClCompile Include="cpu_sin.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

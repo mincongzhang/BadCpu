@@ -21,5 +21,8 @@
     <ClCompile Include="cpu_line.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cpu_play.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

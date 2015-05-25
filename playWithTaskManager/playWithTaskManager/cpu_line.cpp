@@ -1,3 +1,4 @@
+/*
 #include <Windows.h>  
 #include<stdlib.h>  
 #include<tchar.h>  
@@ -11,8 +12,9 @@ int _tmain(int argc,_TCHAR* argv[])
     {  
         startTime = GetTickCount();  
 
-		while((GetTickCount() - startTime) <= busyTime){/*busy loop*/};   
+		while((GetTickCount() - startTime) <= busyTime){}; //busy loop
 		Sleep(idleTime); //idle  
     }  
     return 0;  
 }
+*/
