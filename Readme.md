@@ -10,7 +10,7 @@ http://me.ivydom.com/archives/cppbadapple.html
 http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
 http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
 
-Draw Sin Wave
+Draw Sin Wave  
 http://book.douban.com/annotation/13530271/  
 http://noalgo.info/444.html  
 http://blog.renren.com/share/185447585/6940521336  
