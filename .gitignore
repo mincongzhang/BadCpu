@@ -15,3 +15,5 @@ playWithTaskManager/Debug
 *.pdb
 
 *.sdf
+
+*proj
