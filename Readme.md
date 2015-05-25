@@ -8,6 +8,6 @@ http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/a
 
 
 the beauty of programming, draw sin in task manager?
-http://book.douban.com/annotation/13530271/
-http://noalgo.info/444.html
-http://blog.renren.com/share/185447585/6940521336
+http://book.douban.com/annotation/13530271/  
+http://noalgo.info/444.html  
+http://blog.renren.com/share/185447585/6940521336  
