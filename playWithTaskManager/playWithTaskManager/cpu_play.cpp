@@ -2,8 +2,16 @@
 #include <windows.h>
 #include <string.h>
 #include <tchar.h>  
+#include <sstream> 
 
 using namespace std;
+
+std::string NumberToString ( unsigned int num )
+{
+	stringstream ss;
+	ss << num;
+	return ss.str();
+}
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -62,15 +70,41 @@ int _tmain(int argc, _TCHAR* argv[])
 	HDC mHdc=CreateCompatibleDC(hdc);
 	HBITMAP holdbmp;										  
 
-	while(true){
-		char *path="E://Github//HackingWindowsTaskManager//badapple_frames//1.bmp";
-		PichWnd=LoadImage(0,(LPCTSTR)path,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
-		cout<<"Loading:"<<PichWnd<<endl;
+	//hard coded...
+	//char *path="E://Github//HackingWindowsTaskManager//badapple_frames//1.bmp";
+	//char *image_path="E://ba//2.bmp";
+	char *background="E://frames//1.bmp";
+	std::string image_path="E://frames//";
+	std::string suffix = ".bmp";
+	unsigned int frame_num = 1000;
+	char *c_image_address = new char[100];
+
+	for(unsigned int i=1;i<frame_num;i++){
+		Sleep(30);
+		std::string image_address =image_path+NumberToString(i)+ suffix;
+		strcpy(c_image_address, image_address.c_str());
+
+		PichWnd=LoadImage(0,(LPCTSTR)c_image_address,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
+		cout<<"Loading image["<<c_image_address<<"] :"<<PichWnd<<endl;
 
 		SelectObject(mHdc,PichWnd);
-		StretchBlt (hdc, 0, 0, 240, 200, mHdc, 0, 0, 240, 200, SRCPAINT);
+		StretchBlt (hdc, 0, 0, 280, 200, //target window and its size
+			mHdc, 0, 0, 280, 200,//source image and its size
+			SRCPAINT);			 //painting method:using the Boolean XOR 
+
+		///clear window
+		/*
+		PichWnd=LoadImage(0,(LPCTSTR)background,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
+		SelectObject(mHdc,PichWnd);
+		StretchBlt (hdc, 0, 0, 280, 200, //target window and its size
+			mHdc, 0, 0, 280, 200,//source image and its size
+			SRCAND);			 //painting method:using the Boolean XOR
+		  */
 	}
+	delete [] c_image_address;
 
 	system("PAUSE");
 	return 0;
 }
+
+
