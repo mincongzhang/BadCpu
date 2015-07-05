@@ -73,6 +73,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	//Learning to Draw Basic Graphics in C++
 	//http://www.informit.com/articles/article.aspx?p=328647&seqNum=3
+	//Transparent Bitmaps
+	//http://www.winprog.org/tutorial/transparency.html
 	delete [] c_image_address;
 
 	system("PAUSE");
