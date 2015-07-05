@@ -21,4 +21,8 @@ http://me.ivydom.com/archives/cppbadapple.html
 http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
 http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
 
-
+Draw in Windows  
+Learning to Draw Basic Graphics in C++:  
+http://www.informit.com/articles/article.aspx?p=328647&seqNum=3  
+Transparent Bitmaps:  
+http://www.winprog.org/tutorial/transparency.html  
