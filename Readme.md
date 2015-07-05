@@ -27,3 +27,4 @@ http://www.informit.com/articles/article.aspx?p=328647&seqNum=3
 Transparent Bitmaps:  
 http://www.winprog.org/tutorial/transparency.html  
 http://www.codeproject.com/Articles/703/Drawing-Transparent-Bitmap-with-ease-with-on-the-f
+TODO: read from cfg file
