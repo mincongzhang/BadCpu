@@ -75,6 +75,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//http://www.informit.com/articles/article.aspx?p=328647&seqNum=3
 	//Transparent Bitmaps
 	//http://www.winprog.org/tutorial/transparency.html
+	//Bitmaps, Device Contexts and BitBlt
+	//http://www.modula2.org/win32tutor/bitmaps.php
+	//Timer
+	//http://www.modula2.org/win32tutor/animation.php
 	delete [] c_image_address;
 
 	system("PAUSE");
