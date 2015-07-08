@@ -86,16 +86,34 @@ bool screenCapturePart(int x, int y, int w, int h, LPCSTR fname){
 
 int main()
 { 
-    HWND hwnd = FindWindow(NULL,"Windows 任务管理器");    //the window can't be min
-    if (hwnd == NULL)
-    {
-        cout << "it can't find any window" << endl;
+	HWND p_hwnd,c_hwnd,g_hwnd;
 
-    }
+	//Get ParentWindow's hwnd
+	//wchar_t title[15]=TEXT("Windows 任务管理器");//char* =>wchar*
+	p_hwnd=FindWindow(NULL,"Windows 任务管理器");
+	if(p_hwnd==0){
+		cout<<"FindWindow() FAILED!"<<endl;
+	} else {
+		SetForegroundWindow(p_hwnd); //brings that window to foreground
+		cout<<"p_hwnd="<<p_hwnd<<endl;            
+	}
+
+	//Get ChildWindow's hwnd
+	c_hwnd=GetTopWindow(p_hwnd);
+	if(c_hwnd!=0){cout<<"c_hwnd="<<c_hwnd<<endl;}
+	else{cout<<"GetTopWindow() FAILED!"<<endl;}
+
+	//Get GrandWindow's hwnd
+	//(The identifier of the control to be retrieved.)
+	//control ID = 00001388 in hex, = 5000 in dec
+	g_hwnd=GetDlgItem(c_hwnd, 5000);//5001 second window, and so on	
+	if(g_hwnd!=0){cout<<"g_hwnd="<<g_hwnd<<endl;}
+	else{cout<<"GetDlgItem() FAILED!"<<endl;}
+
 	RECT rc;
 	int width,height;
     //GetClientRect(hwnd, &rc); //Retrieves the coordinates of a window's client area.
-	GetWindowRect(hwnd, &rc);
+	GetWindowRect(g_hwnd, &rc);
 	width = rc.right - rc.left;
 	height = rc.bottom - rc.top;
 	std::cout<<"rc.right:"<<rc.right<<"rc.left:"<<rc.left<<endl;
@@ -103,7 +121,7 @@ int main()
 	std::cout<<"width:"<<width<<"height:"<<height<<endl;
 
 
-	char *c_image_address = "E://a.bmp";
+	char *c_image_address = "E://screen.bmp";
 	screenCapturePart(rc.left, rc.top,width,height,c_image_address);
 
 	system("PAUSE");
