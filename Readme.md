@@ -36,6 +36,9 @@ http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-
 Edit Pixel  
 http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bitmap-image  
 
+DavesFrameClass(that cpu window)  
+http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx
+
 TODO: read from cfg file
 
 https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
