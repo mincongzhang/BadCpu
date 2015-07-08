@@ -33,5 +33,22 @@ http://www.modula2.org/win32tutor/animation.php
 Capture a window and save it  
 http://www.codeproject.com/Articles/19192/How-to-capture-a-Window-as-an-Image-and-save-it  
 http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-bitmap-object-in-c
+Edit Pixel  
+http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bitmap-image  
+
+DavesFrameClass(that cpu window)  
+http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx
 
 TODO: read from cfg file
+
+
+
+Make pixels transparent  
+https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
+1. Use CreateBitmap() or CreateComatibleBitmap() to create a new HBITMAP with the same size as the original.
+
+2. Use FillRect() to fill the entire new HBITMAP with the new color. 
+
+3. Use TransparentBlt() to copy the image from the old HBITMAP to the new HBITMAP. Use the color you want to replace as the transparent color.
+
+Now your old image will appear in the new bitmap; the old color will be invisible and the color underneath will be seen. Now you have changed the color of the bitmap.
