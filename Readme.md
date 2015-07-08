@@ -32,5 +32,6 @@ Timer
 http://www.modula2.org/win32tutor/animation.php  
 Capture a window and save it  
 http://www.codeproject.com/Articles/19192/How-to-capture-a-Window-as-an-Image-and-save-it  
+http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-bitmap-object-in-c
 
 TODO: read from cfg file
