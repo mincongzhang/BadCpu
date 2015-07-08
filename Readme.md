@@ -22,12 +22,16 @@ http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/
 http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
 
 Draw in Windows  
-Learning to Draw Basic Graphics in C++:  
+Learning to Draw Basic Graphics in C++  
 http://www.informit.com/articles/article.aspx?p=328647&seqNum=3  
-Transparent Bitmaps:  
+Transparent Bitmaps  
 http://www.winprog.org/tutorial/transparency.html  
-http://www.codeproject.com/Articles/703/Drawing-Transparent-Bitmap-with-ease-with-on-the-f  
-Bitmaps, Device Contexts and BitBlt(Draw and delete)  
-http://www.modula2.org/win32tutor/bitmaps.php
+Bitmaps, Device Contexts and BitBlt  
+http://www.modula2.org/win32tutor/bitmaps.php  
+Timer  
+http://www.modula2.org/win32tutor/animation.php  
+Capture a window and save it  
+http://www.codeproject.com/Articles/19192/How-to-capture-a-Window-as-an-Image-and-save-it  
+http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-bitmap-object-in-c
 
 TODO: read from cfg file
