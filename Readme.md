@@ -33,6 +33,9 @@ http://www.modula2.org/win32tutor/animation.php
 Capture a window and save it  
 http://www.codeproject.com/Articles/19192/How-to-capture-a-Window-as-an-Image-and-save-it  
 http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-bitmap-object-in-c
+Take Screen shot  
+http://planetsourcecode.com/vb/scripts/ShowCode.asp?txtCodeId=10754&lngWId=3  
+http://stackoverflow.com/questions/9524393/how-to-capture-part-of-the-screen-and-save-it-to-a-bmp  
 Edit Pixel  
 http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bitmap-image  
 
