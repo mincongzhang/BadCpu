@@ -41,6 +41,9 @@ http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx
 
 TODO: read from cfg file
 
+
+
+Make pixels transparent  
 https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
 1. Use CreateBitmap() or CreateComatibleBitmap() to create a new HBITMAP with the same size as the original.
 
