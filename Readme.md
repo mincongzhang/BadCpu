@@ -43,6 +43,7 @@ https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114
 
 DavesFrameClass(that cpu window)  
 http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx  
+http://bbs.2ccc.com/topic.asp?topicid=161955  
 Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
