@@ -48,8 +48,10 @@ Graphical Monitor
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
 
-TODO: read from cfg file
-
+### TODO:
+1. read hard coded path and window names from cfg file  
+2. draw gaussian, .etc waves  
+3. play frequency waves when playing the animation
 
 
 
