@@ -18,8 +18,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	HWND p_hwnd,c_hwnd,g_hwnd;
 
 	//Get ParentWindow's hwnd
-	//wchar_t title[15]=TEXT("Windows 任务管理器");//char* =>wchar*
-	p_hwnd=FindWindow(NULL,"Windows 任务管理器");
+	//wchar_t title[15]=TEXT("Windows 脠脦脦帽鹿脺脌铆脝梅");//char* =>wchar*
+	p_hwnd=FindWindow(NULL,"Windows 脠脦脦帽鹿脺脌铆脝梅");
 	if(p_hwnd==0){
 		cout<<"FindWindow() FAILED!"<<endl;
 	} else {
@@ -71,14 +71,15 @@ int _tmain(int argc, _TCHAR* argv[])
 			frame_dc, 0, 0, 256, 192,	        //source image and its size
 			SRCPAINT);
 	}
-	//Learning to Draw Basic Graphics in C++
-	//http://www.informit.com/articles/article.aspx?p=328647&seqNum=3
-	//Transparent Bitmaps
-	//http://www.winprog.org/tutorial/transparency.html
-	//Bitmaps, Device Contexts and BitBlt
-	//http://www.modula2.org/win32tutor/bitmaps.php
-	//Timer
-	//http://www.modula2.org/win32tutor/animation.php
+//idea to avoid ghost edges 
+/*
+for loop{
+  get screenshot
+  draw frame
+  Sleep(30)
+  draw screenshot back
+}
+*/
 	delete [] c_image_address;
 
 	system("PAUSE");
