@@ -81,6 +81,12 @@ int main()
 		std::cout<<"Loading image["<<c_image_address<<"] :"<<frame_image<<std::endl;
 
 		//select into frame_dc
+		//TODO: verify this , get background first then draw(but have to recover it afterward?)
+		/*
+		StretchBlt (frame_dc, 0, 0, 256, 192,	    //target window and its size
+			hdc, 0, 0, 256, 192,	        //source image and its size
+			SRCPAINT);
+		*/
 		SelectObject(frame_dc,frame_image);    //(A handle to the DC, A handle to the object to be selected) 
 		StretchBlt (hdc, 2, 2, 256, 192,	    //target window and its size
 			frame_dc, 0, 0, 256, 192,	        //source image and its size
