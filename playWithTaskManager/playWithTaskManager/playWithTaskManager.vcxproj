@@ -66,6 +66,10 @@
     <ClCompile Include="cpu_play.cpp" />
     <ClCompile Include="cpu_sin.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReplaceColor.h" />
+    <ClInclude Include="ScreenCapture.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
