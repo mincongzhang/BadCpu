@@ -5,6 +5,9 @@
 #include <sstream>
 #include <ole2.h>
 #include <olectl.h>
+
+#include "ReplaceColor.h"
+
 using namespace std;
 
 char * SCREENSHOT_ADDRESS = "E://screen.bmp";
@@ -16,7 +19,7 @@ std::string NumberToString ( unsigned int num ){
 
 int main()
 { 
-	HWND p_hwnd,c_hwnd,g_hwnd;
+	HWND p_hwnd,c_hwnd,g_hwnd1,g_hwnd4;
 
 	//Get ParentWindow's hwnd
 	//wchar_t title[15]=TEXT("Windows 任务管理器");//char* =>wchar*
@@ -37,14 +40,14 @@ int main()
 	//Get GrandWindow's hwnd
 	//(The identifier of the control to be retrieved.)
 	//control ID = 00001388 in hex, = 5000 in dec
-	g_hwnd=GetDlgItem(c_hwnd, 5000);//5001 second window, and so on	
-	if(g_hwnd!=0){cout<<"g_hwnd="<<g_hwnd<<endl;}
+	g_hwnd1=GetDlgItem(c_hwnd, 5000);//5001 second window, and so on
+	if(g_hwnd1!=0){cout<<"g_hwnd1="<<g_hwnd1<<endl;}
 	else{cout<<"GetDlgItem() FAILED!"<<endl;}
 
 	//Get hdc
-	HDC hdc;
-	hdc=GetWindowDC(g_hwnd);
-	if(hdc!=0){cout<<"hdc="<<hdc<<endl;}
+	HDC cpu1_hdc,cpu4_hdc;
+	cpu1_hdc=GetWindowDC(g_hwnd1);
+	if(cpu1_hdc!=0){cout<<"cpu1_hdc="<<cpu1_hdc<<endl;}
 	else{cout<<"GetWindowDC() FAILED!"<<endl;}
 
 	std::cout<<"prepare to draw..."<<std::endl;
@@ -52,8 +55,7 @@ int main()
 
 	RECT rc;
 	int width,height;
-	g_hwnd=GetDlgItem(c_hwnd, 5003);
-	GetWindowRect(g_hwnd, &rc);
+	GetWindowRect(g_hwnd1, &rc);
 	width = rc.right - rc.left;
 	height = rc.bottom - rc.top;
 	std::cout<<"rc.right:"<<rc.right<<"rc.left:"<<rc.left<<endl;
@@ -68,11 +70,10 @@ int main()
 	unsigned int frame_num = 6566;
 	char *c_image_address = new char[100];
 
-	HDC frame_dc=CreateCompatibleDC(hdc);//create a Memory Device Contexts(DC)
+	HDC frame_dc=CreateCompatibleDC(cpu1_hdc);//create a Memory Device Contexts(DC)
 	HANDLE frame_image;
 	HANDLE original_frame_image;
 	for(unsigned int i=1;i<frame_num;i++){
-
 
 		std::string image_address =image_path + NumberToString(i) + suffix;
 		strcpy(c_image_address, image_address.c_str());
@@ -80,28 +81,15 @@ int main()
 		frame_image=LoadImage(0,(LPCTSTR)c_image_address,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
 		std::cout<<"Loading image["<<c_image_address<<"] :"<<frame_image<<std::endl;
 
+		HBITMAP hBmp = ReplaceColor(HBITMAP(frame_image),0x00ff00,0xff0000,frame_dc); // replace green by blue
+
 		//select into frame_dc
-		//TODO: verify this , get background first then draw(but have to recover it afterward?)
-		/*
-		StretchBlt (frame_dc, 0, 0, 256, 192,	    //target window and its size
-			hdc, 0, 0, 256, 192,	        //source image and its size
-			SRCPAINT);
-		*/
-		SelectObject(frame_dc,frame_image);    //(A handle to the DC, A handle to the object to be selected) 
-		StretchBlt (hdc, 2, 2, 256, 192,	    //target window and its size
+		SelectObject(frame_dc,hBmp);    //(A handle to the DC, A handle to the object to be selected) 
+		StretchBlt (cpu1_hdc, 2, 2, 256, 192,	    //target window and its size
 			frame_dc, 0, 0, 256, 192,	        //source image and its size
 			SRCPAINT);
 
-		frame_image=LoadImage(0,(LPCTSTR)SCREENSHOT_ADDRESS,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
-		std::cout<<"Loading background["<<SCREENSHOT_ADDRESS<<"] :"<<frame_image<<std::endl;
-
-		Sleep(60);
-		screenCapturePart(rc.left, rc.top,width,height,SCREENSHOT_ADDRESS);
-		SelectObject(frame_dc,frame_image);    //(A handle to the DC, A handle to the object to be selected) 
-		StretchBlt (hdc, 0, 0, 256, 192,	    //target window and its size
-			frame_dc, 0, 0, 256, 192,	        //source image and its size
-			SRCCOPY);
-
+		Sleep(30);
 	}
 
 	delete [] c_image_address;
@@ -176,11 +164,11 @@ bool screenCapturePart(int x, int y, int w, int h, LPCSTR fname){
 	int capX = GetDeviceCaps(hdcSource, HORZRES);
 	int capY = GetDeviceCaps(hdcSource, VERTRES);
 
-	HBITMAP hBitmap = CreateCompatibleBitmap(hdcSource, w, h);
-	HBITMAP hBitmapOld = (HBITMAP)SelectObject(hdcMemory, hBitmap);
+	HBITMAP hBitmap = CreateCompatibleBitmap(hdcSource, w, h);		 //get empty bitmap?
+	HBITMAP hBitmapOld = (HBITMAP)SelectObject(hdcMemory, hBitmap);	  //put bitmap into hdc
 
-	BitBlt(hdcMemory, 0, 0, w, h, hdcSource, x, y, SRCCOPY);
-	hBitmap = (HBITMAP)SelectObject(hdcMemory, hBitmapOld);
+	BitBlt(hdcMemory, 0, 0, w, h, hdcSource, x, y, SRCCOPY);		//get source hdc into memory
+	hBitmap = (HBITMAP)SelectObject(hdcMemory, hBitmapOld);			 //get bitmap from memory
 
 	DeleteDC(hdcSource);
 	DeleteDC(hdcMemory);
