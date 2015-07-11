@@ -50,6 +50,7 @@ https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/
 Matlab:  
 get audio from video  
 http://uk.mathworks.com/matlabcentral/newsreader/view_thread/291514  
+http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-port-is-not-relavant  
 
 ### TODO:
 1. read hard coded path and window names from cfg file  
