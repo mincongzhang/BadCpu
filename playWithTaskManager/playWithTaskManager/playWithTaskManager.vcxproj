@@ -69,6 +69,7 @@
   <ItemGroup>
     <ClInclude Include="ReplaceColor.h" />
     <ClInclude Include="ScreenCapture.h" />
+    <ClInclude Include="ToolBox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
