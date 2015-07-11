@@ -51,7 +51,8 @@ Matlab:
 get audio from video  
 http://uk.mathworks.com/matlabcentral/newsreader/view_thread/291514  
 http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-port-is-not-relavant  
-
+Draw frequency(spectral analysis)   
+http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m  
 ### TODO:
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
