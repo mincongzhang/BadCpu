@@ -1,7 +1,7 @@
 #CpuPlayer
 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/Bvvhg2Lrq6Q" frameborder="0" allowfullscreen></iframe>
+[![ScreenShot](https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp)](https://www.youtube.com/watch?v=Bvvhg2Lrq6Q)
 
 
 ### Play Anime
