@@ -1,11 +1,16 @@
 #HackingWindowsTaskManager
 
+### Sin Wave
+<img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_play.bmp" alt="1" title="1" height="400"/>
+
+### Sin Wave
+<img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_sin.bmp" alt="1" title="1" height="400"/>
+
 ### Line
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_50.bmp" alt="1" title="1" height="400"/>
 
 
-### Sin Wave
-<img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_sin.bmp" alt="1" title="1" height="400"/>
+
 
 
 ### Reference:  
