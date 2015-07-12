@@ -1,6 +1,6 @@
 #HackingWindowsTaskManager
 
-### Sin Wave
+### Play Anime
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_play.bmp" alt="1" title="1" height="400"/>
 
 ### Sin Wave
@@ -61,7 +61,7 @@ http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-mat
 ### TODO:
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
-3. play frequency waves when playing the animation
+3. play frequency waves when playing animes(done)
 
 
 
