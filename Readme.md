@@ -1,8 +1,5 @@
 #CpuPlayer
 
-
-[![ScreenShot](https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp)](https://www.youtube.com/watch?v=Bvvhg2Lrq6Q)
-
 <a href="https://www.youtube.com/watch?v=Bvvhg2Lrq6Q">
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp" height="400" >
 
