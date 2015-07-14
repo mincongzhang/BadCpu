@@ -1,5 +1,7 @@
 #CpuPlayer
 
+### Demo
+
 <a href="https://www.youtube.com/watch?v=Bvvhg2Lrq6Q">
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp" height="400" >
 
@@ -66,6 +68,6 @@ http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-mat
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
 3. play frequency waves when playing animes(done)
-
+4. Multithreading to wait certain time before drawing(1 thread to wait, 1 thread to draw)
 
 
