@@ -58,8 +58,8 @@ http://bbs.2ccc.com/topic.asp?topicid=161955
 Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
-Simulate mouse clicks
-http://www.cplusplus.com/forum/lounge/17053/
+Simulate mouse clicks  
+http://www.cplusplus.com/forum/lounge/17053/  
 
 Matlab:  
 get audio from video  
