@@ -1,7 +1,9 @@
 #CpuPlayer
 
+### Demo
 
-[![ScreenShot](https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp)](https://www.youtube.com/watch?v=Bvvhg2Lrq6Q)
+<a href="https://www.youtube.com/watch?v=Bvvhg2Lrq6Q">
+<img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/youtube.bmp" height="400" >
 
 
 ### Play Anime
@@ -56,16 +58,24 @@ http://bbs.2ccc.com/topic.asp?topicid=161955
 Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
+Simulate mouse clicks  
+http://www.cplusplus.com/forum/lounge/17053/  
+
 Matlab:  
 get audio from video  
 http://uk.mathworks.com/matlabcentral/newsreader/view_thread/291514  
 http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-port-is-not-relavant  
 Draw frequency(spectral analysis)   
-http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m  
+http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m 
+
+Boost and building boost  
+http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
+http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
+
 ### TODO:
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
 3. play frequency waves when playing animes(done)
-
+4. Multithreading to wait certain time before drawing(1 thread to wait, 1 thread to draw)
 
 
