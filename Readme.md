@@ -76,6 +76,6 @@ http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
 3. play frequency waves when playing animes(done)
-4. Multithreading to wait certain time before drawing(1 thread to wait, 1 thread to draw)
+4. Create a new thread to keep frame rate(done)
 
 
