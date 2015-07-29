@@ -2,8 +2,6 @@ playWithTaskManager/Debug
 
 *.suo
 
-*.sln
-
 *.exe
 
 *log
