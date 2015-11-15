@@ -72,6 +72,9 @@ Boost and building boost
 http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
 http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
 
+Laser Badapple  
+https://marcan.st/projects/openlase/
+
 ### TODO:
 1. read hard coded path and window names from cfg file  
 2. draw gaussian, .etc waves  
