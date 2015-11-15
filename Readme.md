@@ -77,5 +77,6 @@ http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html
 2. draw gaussian, .etc waves  
 3. play frequency waves when playing animes(done)
 4. Create a new thread to keep frame rate(done)
+5. Add Intro of this project, organize reference
 
 
