@@ -81,5 +81,6 @@ https://marcan.st/projects/openlase/
 3. play frequency waves when playing animes(done)
 4. Create a new thread to keep frame rate(done)
 5. Add Intro of this project, organize reference
+6. May have Handle leak?
 
 
