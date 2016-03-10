@@ -10,17 +10,17 @@
 #include "ToolBox.h"
 
 namespace {
-char * SCREENSHOT_ADDRESS = "E://screen.bmp";
-char * WINDOW_NAME = "Windows 任务管理器";
-const std::string IMAGE_PATH="E://frames//";
+char * SCREENSHOT_ADDRESS = "C://Users//mizhang//Desktop//screen.bmp";
+char * WINDOW_NAME = "Windows Task Manager";
+const std::string IMAGE_PATH="C://frames//";
 const std::string SUFFIX = ".bmp";
 const unsigned int FRAME_NUM = 6566;
 const int WINDOW_WIDTH = 280;
 const int WINDOW_HEIGHT = 200;
 const int CPU1_ID = 5000;
 const int CPU2_ID = 5001;
-const int CPU4_ID = 5003;
-const int FRAME_WAIT_TIME_MS = 30;
+const int CPU4_ID = 5005;
+const int FRAME_WAIT_TIME_MS = 10;
 }
 
 void frameSleeper(){
@@ -53,11 +53,11 @@ int main()
 	char *c_image_address = new char[100];
 	char *c_freq_address = new char[100];
 	HDC frame_dc=CreateCompatibleDC(cpu1_hdc);//create a Memory Device Contexts(DC)
-	HANDLE frame_image;
-	HANDLE freq_image;
-	HANDLE frame_background;
+	//HANDLE frame_image;
+	//HANDLE freq_image;
+	//HANDLE frame_background;
 	//HANDLE original_frame_image;
-	HBITMAP grid_background;
+	//HBITMAP grid_background;
 	std::string image_address;
 	std::string freq_address;
 
@@ -71,6 +71,11 @@ int main()
 
 		strcpy(c_image_address, image_address.c_str());
 		strcpy(c_freq_address, freq_address.c_str());
+
+		HANDLE frame_image;
+		HANDLE freq_image;
+		HANDLE frame_background;
+		HBITMAP grid_background;
 
 		frame_image=LoadImage(0,(LPCTSTR)c_image_address,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
 		freq_image=LoadImage(0,(LPCTSTR)c_freq_address,IMAGE_BITMAP,0,0,LR_LOADFROMFILE);//Load image from path
@@ -101,7 +106,13 @@ int main()
 			frame_dc, 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT,	        //source image and its size
 			SRCPAINT);
 
-		frame_sleep_pthread.join();	     
+		frame_sleep_pthread.join();	   
+
+		//NOTE: have to release the memory (Bitmap=>DeleteObject)
+		DeleteObject(frame_image);
+		DeleteObject(freq_image);
+		DeleteObject(frame_background);
+		DeleteObject(grid_background);
 	}
 
 	delete [] c_image_address;
