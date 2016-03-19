@@ -57,13 +57,14 @@ https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114
 
 ##### DavesFrameClass(that cpu window):  
 
-http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx  
-http://bbs.2ccc.com/topic.asp?topicid=161955  
-Graphical Monitor  
+1. http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx  
+2. http://bbs.2ccc.com/topic.asp?topicid=161955  
+3. Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
 ##### Simulate mouse clicks:  
-http://www.cplusplus.com/forum/lounge/17053/  
+
+1. http://www.cplusplus.com/forum/lounge/17053/  
 
 ##### Matlab:  
 
@@ -74,8 +75,9 @@ http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-po
 http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m 
 
 #### Boost and building boost:  
-http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
-http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
+
+1. http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
+2. http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
 
 ##### Laser Badapple:  
-https://marcan.st/projects/openlase/
+1. https://marcan.st/projects/openlase/
