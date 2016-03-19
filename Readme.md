@@ -10,8 +10,8 @@
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_play.bmp" alt="1" title="1" width="700"/>
 
 ### How to Play:  
-Download HowToPlay.zip, unzip it and follow the readme.txt inside  
-下载HowToPlay.zip，解压缩然后根据readme.txt的指示操作  
+Download [HowToPlay.zip](http://example.com/), unzip it and follow the readme.txt inside  
+下载[HowToPlay.zip](http://example.com/)，解压缩然后根据readme.txt的指示操作  
 
 
 How To Play?  
