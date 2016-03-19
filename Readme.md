@@ -21,20 +21,20 @@
 
 ### Reference:   
 
-Sin Wave:
+##### Sin Wave:
 
 1. http://book.douban.com/annotation/13530271/  
 2. http://noalgo.info/444.html (multithreading)  
 3. http://blog.renren.com/share/185447585/6940521336  
 
-Play Anime:  
+##### Play Anime:  
 1. http://www.bilibili.com/video/av620375/  
 2. http://www.bilibili.com/video/av2281028/  
 3. http://me.ivydom.com/archives/cppbadapple.html  
 4. http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
 5. http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
 
-Draw in Windows:    
+##### Draw in Windows:    
 1. Learning to Draw Basic Graphics in C++  
 http://www.informit.com/articles/article.aspx?p=328647&seqNum=3  
 2. Transparent Bitmaps  
@@ -54,16 +54,16 @@ http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bit
 8. Make pixels transparent  
 https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
 
-DavesFrameClass(that cpu window)  
+##### DavesFrameClass(that cpu window)  
 http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx  
 http://bbs.2ccc.com/topic.asp?topicid=161955  
 Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
-Simulate mouse clicks  
+##### Simulate mouse clicks  
 http://www.cplusplus.com/forum/lounge/17053/  
 
-Matlab:  
+##### Matlab:  
 get audio from video  
 http://uk.mathworks.com/matlabcentral/newsreader/view_thread/291514  
 http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-port-is-not-relavant  
@@ -74,15 +74,5 @@ Boost and building boost
 http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
 http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
 
-Laser Badapple  
+##### Laser Badapple:  
 https://marcan.st/projects/openlase/
-
-### TODO:
-1. read hard coded path and window names from cfg file  
-2. draw gaussian, .etc waves  
-3. play frequency waves when playing animes(done)
-4. Create a new thread to keep frame rate(done)
-5. Add Intro of this project, organize reference
-6. May have Handle leak?
-
-
