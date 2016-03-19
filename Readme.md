@@ -16,7 +16,7 @@
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_50.bmp" alt="1" title="1" width="700"/>
 
 
-
+### How to Play:   
 
 
 ### Reference:   
@@ -74,7 +74,7 @@ http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-po
 2. Draw frequency(spectral analysis)   
 http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m 
 
-#### Boost and building boost:  
+##### Boost and building boost:  
 
 1. http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
 2. http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
