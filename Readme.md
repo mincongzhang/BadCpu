@@ -20,10 +20,10 @@
 
 
 ### Reference:  
-Draw Sin Wave  
-http://book.douban.com/annotation/13530271/  
-http://noalgo.info/444.html (multithreading)  
-http://blog.renren.com/share/185447585/6940521336  
+Draw Sin Wave   
+1. http://book.douban.com/annotation/13530271/  
+2. http://noalgo.info/444.html (multithreading)  
+3. http://blog.renren.com/share/185447585/6940521336  
 
 Play Animation:  
 http://www.bilibili.com/video/av620375/  
