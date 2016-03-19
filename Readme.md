@@ -10,25 +10,24 @@
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_play.bmp" alt="1" title="1" width="700"/>
 
 ### How to Play:  
-Download HowToPlay.zip, unzip it and follow the readme.txt inside.
-下载HowToPlay.zip，解压缩然后根据readme.txt的指示操作
+Download HowToPlay.zip, unzip it and follow the readme.txt inside  
+下载HowToPlay.zip，解压缩然后根据readme.txt的指示操作  
 
 
+How To Play?  
+1. Put the frames folder to somewhere you like  
+2. Edit cfg.ini and change the SCREENSHOT_ADDRESS IMAGE_PATH to where your frames folder located  
+3. Open Windows Task Manager  
+4. Open cpu_play.exe  
+5. Make sure all loadings are good, press any key to play  
 
-How To Play?
-1. Put the frames folder to somewhere you like
-2. Edit cfg.ini and change the SCREENSHOT_ADDRESS IMAGE_PATH to where your frames folder located
-3. Open Windows Task Manager
-4. Open cpu_play.exe
-5. Make sure all loadings are good, press any key to play
-
-怎么玩？
-1. 把frames文件夹随便放到一个合适的位置
-2. 编辑cfg.ini，把SCREENSHOT_ADDRESS和IMAGE_PATH改到frames所在的位置
-3. 编辑cfg.ini，把WINDOW_NAME改成任务管理器的窗口名（中文Windows系统一般叫“Windows 任务管理器”）
-4. 打开任务管理器
-5. 打开cpu_play.exe
-6. 确保所有的loading都成功，然后按任意键播放
+怎么玩？  
+1. 把frames文件夹随便放到一个合适的位置  
+2. 编辑cfg.ini，把SCREENSHOT_ADDRESS和IMAGE_PATH改到frames所在的位置  
+3. 编辑cfg.ini，把WINDOW_NAME改成任务管理器的窗口名（中文Windows系统一般叫“Windows 任务管理器”）  
+4. 打开任务管理器  
+5. 打开cpu_play.exe  
+6. 确保所有的loading都成功，然后按任意键播放  
 
 ### Sin Wave
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_sin.bmp" alt="1" title="1" width="700"/>
