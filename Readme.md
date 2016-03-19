@@ -21,36 +21,36 @@
 
 ### Reference:   
 
-Draw Sin Wave   
+Sin Wave:      
 1. http://book.douban.com/annotation/13530271/  
 2. http://noalgo.info/444.html (multithreading)  
 3. http://blog.renren.com/share/185447585/6940521336  
 
-Play Animation:  
-http://www.bilibili.com/video/av620375/  
-http://www.bilibili.com/video/av2281028/  
-http://me.ivydom.com/archives/cppbadapple.html  
-http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
-http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
+Play Anime:  
+1. http://www.bilibili.com/video/av620375/  
+2. http://www.bilibili.com/video/av2281028/  
+3. http://me.ivydom.com/archives/cppbadapple.html  
+4. http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
+5. http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
 
-Draw in Windows  
-Learning to Draw Basic Graphics in C++  
+Draw in Windows:    
+1. Learning to Draw Basic Graphics in C++  
 http://www.informit.com/articles/article.aspx?p=328647&seqNum=3  
-Transparent Bitmaps  
+2. Transparent Bitmaps  
 http://www.winprog.org/tutorial/transparency.html  
-Bitmaps, Device Contexts and BitBlt  
+3. Bitmaps, Device Contexts and BitBlt  
 http://www.modula2.org/win32tutor/bitmaps.php  
-Timer  
+4. Timer  
 http://www.modula2.org/win32tutor/animation.php  
-Capture a window and save it  
+5. Capture a window and save it  
 http://www.codeproject.com/Articles/19192/How-to-capture-a-Window-as-an-Image-and-save-it  
 http://stackoverflow.com/questions/7292757/how-to-get-screenshot-of-a-window-as-bitmap-object-in-c  
-Take Screen shot  
+6. Take Screen shot  
 http://planetsourcecode.com/vb/scripts/ShowCode.asp?txtCodeId=10754&lngWId=3  
 http://stackoverflow.com/questions/9524393/how-to-capture-part-of-the-screen-and-save-it-to-a-bmp  
-Edit Pixel  
+7. Edit Pixel  
 http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bitmap-image  
-Make pixels transparent  
+8. Make pixels transparent  
 https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
 
 DavesFrameClass(that cpu window)  
