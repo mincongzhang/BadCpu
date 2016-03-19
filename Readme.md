@@ -19,7 +19,8 @@
 
 
 
-### Reference:  
+### Reference:   
+
 Draw Sin Wave   
 1. http://book.douban.com/annotation/13530271/  
 2. http://noalgo.info/444.html (multithreading)  
