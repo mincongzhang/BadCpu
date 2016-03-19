@@ -55,7 +55,7 @@ http://stackoverflow.com/questions/2750988/c-reading-and-editing-pixels-of-a-bit
 8. Make pixels transparent  
 https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114c09/how-to-replace-two-colors-in-hbitmap-in-wince-?forum=vssmartdevicesnative
 
-##### DavesFrameClass(that cpu window):  
+##### DavesFrameClass(the window class that drew the CPU meter):  
 
 1. http://blogs.msdn.com/b/oldnewthing/archive/2007/07/25/4036123.aspx  
 2. http://bbs.2ccc.com/topic.asp?topicid=161955  
