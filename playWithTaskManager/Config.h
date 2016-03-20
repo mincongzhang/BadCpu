@@ -31,7 +31,13 @@ public:
 		m_window_name_str        = m_cfg.get<std::string>("Section1.WINDOW_NAME");
 
 		m_screenshot_address = strdup(m_screenshot_address_str.c_str());
-		m_window_name        = strdup(m_window_name_str.c_str());
+
+		//For Chinese System
+		if(m_window_name_str != "Windows Task Manager"){
+			m_window_name = "Windows 任务管理器";
+		} else {
+			m_window_name = strdup(m_window_name_str.c_str());
+		}
 
 		m_image_path         = m_cfg.get<std::string>("Section1.IMAGE_PATH");
 		m_image_file_suffix  = m_cfg.get<std::string>("Section1.IMAGE_FILE_SUFFIX");
