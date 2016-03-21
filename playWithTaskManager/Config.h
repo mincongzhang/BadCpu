@@ -28,7 +28,9 @@ public:
 		try{
 			boost::property_tree::ini_parser::read_ini(cfg_path,m_cfg);
 		} catch(const boost::property_tree::ptree_error &e) {
-			logInfo("Read ["<<cfg_path<<"] failed. Error info: "<<e.what());
+			logInfo("Error info: "<<e.what());
+			logInfo("["<<cfg_path<<"] should be in the same folder with exe file.");
+			system("PAUSE");
 			std::terminate();
 		}
 
