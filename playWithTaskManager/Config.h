@@ -4,6 +4,7 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/ini_parser.hpp>
 #include <string>
+#include <exception>      // std::exception, std::terminate
 
 #include "Logger.h"
 
@@ -24,7 +25,12 @@ public:
 	int m_cpu_background_id;
 
 	Config(const std::string & cfg_path){
-		boost::property_tree::ini_parser::read_ini(cfg_path,m_cfg);
+		try{
+			boost::property_tree::ini_parser::read_ini(cfg_path,m_cfg);
+		} catch(const boost::property_tree::ptree_error &e) {
+			logInfo("Read ["<<cfg_path<<"] failed. Error info: "<<e.what());
+			std::terminate();
+		}
 
 		std::string m_screenshot_address_str, m_window_name_str;
 		m_screenshot_address_str = m_cfg.get<std::string>("Section1.SCREENSHOT_ADDRESS");
