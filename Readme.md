@@ -36,19 +36,6 @@ How To Play?(Only tested in Win7)
 
 ### Reference:   
 
-##### Sin Wave:
-
-1. http://book.douban.com/annotation/13530271/  
-2. http://noalgo.info/444.html (multithreading)  
-3. http://blog.renren.com/share/185447585/6940521336  
-
-##### Play Anime:  
-1. http://www.bilibili.com/video/av620375/  
-2. http://www.bilibili.com/video/av2281028/  
-3. http://me.ivydom.com/archives/cppbadapple.html  
-4. http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/  
-5. http://translate.google.co.uk/translate?hl=en&sl=zh-CN&u=http://timothyqiu.com/archives/bad-apple-in-windows-task-manager/&prev=search  
-
 ##### Draw in Windows:  
 
 1. Learning to Draw Basic Graphics in C++  
@@ -77,10 +64,6 @@ https://social.msdn.microsoft.com/Forums/en-US/88c7d2fc-32fe-44ce-b367-48d4fd114
 3. Graphical Monitor  
 https://www.autoitscript.com/forum/topic/118540-graphical-monitor-of-whatever/  
 
-##### Simulate mouse clicks:  
-
-1. http://www.cplusplus.com/forum/lounge/17053/  
-
 ##### Matlab:  
 
 1. Get audio from video  
@@ -88,11 +71,6 @@ http://uk.mathworks.com/matlabcentral/newsreader/view_thread/291514
 http://stackoverflow.com/questions/27670714/video-read-in-matlab-audio-output-port-is-not-relavant  
 2. Draw frequency(spectral analysis)   
 http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-matlab-implementation/content/Sound_Analysis.m 
-
-##### Boost and building boost:  
-
-1. http://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html  
-2. http://www.cnblogs.com/kanego/archive/2012/02/10/2344968.html  
 
 ##### Laser Badapple:  
 1. https://marcan.st/projects/openlase/
