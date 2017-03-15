@@ -1,4 +1,4 @@
-#BadCpu
+# BadCpu
 
 ### Demo
 
@@ -33,6 +33,10 @@ How To Play?(Only tested in Win7)
 
 ### Line
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_50.bmp" alt="1" title="1" width="700"/>
+
+### TODO
+
+1.check boost expires_from_now, so that we dont need multithreading sleep
 
 ### Reference:   
 
