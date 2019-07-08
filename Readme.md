@@ -9,9 +9,7 @@
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_play.bmp" alt="1" title="1" width="700"/>
 
 ### How to Play:  
-Download [PlayMe.zip](https://github.com/mincongzhang/BadCpu/blob/master/PlayMe.zip?raw=true), unzip it and follow the readme.txt inside  
-下载[PlayMe.zip](https://github.com/mincongzhang/BadCpu/blob/master/PlayMe.zip?raw=true)，解压缩然后根据readme.txt的指示操作  
-
+Download [PlayMe.zip](https://github.com/mincongzhang/BadCpu/blob/master/PlayMe.zip?raw=true), unzip it and follow the readme.txt inside 
 
 How To Play?(Only tested in Win7)  
 1. Put the frames folder to somewhere you like  
@@ -21,6 +19,9 @@ How To Play?(Only tested in Win7)
 5. Make sure all loadings are good, press any key to play  
 
 怎么玩？(目前只在Win7下测试过)  
+
+下载[PlayMe.zip](https://github.com/mincongzhang/BadCpu/blob/master/PlayMe.zip?raw=true)，解压缩然后根据readme.txt的指示操作  
+
 1. 把frames文件夹随便放到一个合适的位置  
 2. 编辑cfg.ini，把SCREENSHOT_ADDRESS和IMAGE_PATH改到frames所在的位置  
 3. 编辑cfg.ini，把WINDOW_NAME改成任务管理器的窗口名（中文Windows系统一般叫“Windows 任务管理器”）  
