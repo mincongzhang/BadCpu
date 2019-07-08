@@ -28,6 +28,7 @@ How To Play?(Only tested in Win7)
 5. 打开cpu_play.exe  
 6. 确保所有的loading都成功，然后按任意键播放  
 
+<!--
 ### Sin Wave
 <img src="https://github.com/mincongzhang/HackIntoWindowsTaskManager/raw/master/cpu_sin.bmp" alt="1" title="1" width="700"/>
 
@@ -78,3 +79,5 @@ http://uk.mathworks.com/matlabcentral/fileexchange/38837-sound-analysis-with-mat
 
 ##### Laser Badapple:  
 1. https://marcan.st/projects/openlase/
+
+-->
